@@ -13,7 +13,7 @@ count = 1
 SALAS = []
 
 for item in filmes:
-    item = {"titulo": "filme1", "sala": count}
+    item = {"titulo": item["titulo"], "sala": count}
     count+=1
     SALAS.append(item)
 
