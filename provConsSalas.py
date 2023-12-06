@@ -20,7 +20,7 @@ for item in filmes:
 pprint(SALAS)
 
 @app.route("/salas", methods= ["GET"])
-def get_filmes():
+def get_salas():
     return jsonify(SALAS)
 
 if __name__ == "__main__":

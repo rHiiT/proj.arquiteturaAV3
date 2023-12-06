@@ -29,7 +29,7 @@ for item in salas:
 pprint(CADEIRAS)
 
 @app.route("/cadeiras", methods= ["GET"])
-def get_filmes():
+def get_cadeiras():
     return jsonify(CADEIRAS)
 
 if __name__ == "__main__":
